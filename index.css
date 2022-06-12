@@ -1,0 +1,116 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    scroll-behavior: smooth;
+}
+#heading{
+    background-color:rgb(130, 130, 240);
+    height: 10vh;
+    text-align: center;
+    line-height:10vh;
+    }
+#trans{
+    background-color:green;
+    height:25vh;
+    display: flex;
+    flex-direction: row;
+    width:100vw;
+    
+
+}
+#expense{
+    background-color: aliceblue;
+    width:50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+   
+}
+#expensehead{
+   text-align: center;
+    
+}
+#earning{
+    background-color: rgb(99, 177, 177);
+    width:50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+ 
+}
+#earninghead{
+    text-align: center;
+     
+ }
+ .input{
+     display: flex;
+     flex-direction:column;
+     width: 50%;
+     left: auto;
+     right: auto;
+        margin: auto;
+
+
+
+ }
+.input{
+    font-size:120%;
+    background-color: aquamarine;
+    width:30vw;
+}
+ .clrtxt{
+     height:2vh;
+     background-color: brown;
+ }
+ .clrtxt1{
+    height:2vh;
+    background-color: brown;
+}
+.spendfield{
+    background-color:purple;
+    height:2vh;
+    border-radius: 10px;
+    width:30vw;
+}
+.earnfield{
+    background-color:purple;
+    height:2vh;
+    border-radius: 10px;
+    width:30vw;
+}
+
+ #addbutton{
+    height:3vh;
+    width: 4vw;
+    background-color: rgb(93, 35, 148);
+    font-size:1.5vw
+ }
+ #addbutton:hover{
+     height:3.1vh;
+     width: 4.1vw;
+     background-color: rgb(84, 17, 146);
+ }
+#addhere{
+    background-color:yellow;
+    height:45vh;
+    display: flex;
+    flex-direction: row;
+    width:100vw;
+}
+#expenseshow{
+    background-color: rgb(46, 228, 106);
+    width:50vw;
+}
+#earningshow{
+    background-color: rgb(179, 73, 221);
+    width:50vw;
+}
+#footer{
+    background-color:red;
+    height: 20vh;
+
+}
