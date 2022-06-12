@@ -1,6 +1,8 @@
 :root{
     --borderrad :10px;
     --primcolor:rgb(34, 8, 95);
+    --primhover:rgb(22, 0, 75);
+    --primfont:blanchedalmond;
 }
 
 *{
@@ -22,7 +24,7 @@
     background-color: rgb(17, 17, 17);
     height:5vh;
     line-height:5vh;
-    color: antiquewhite;
+    color: var(--primfont);
     text-align: center;
 }
 .form{
@@ -59,9 +61,12 @@ height:5vh;
 width:10vw;
 border-radius: var(--borderrad);
 background-color: var(--primcolor);
+color: var(--primfont);
+font-size:150%;
+
 }
 .btn:hover{
-    background-color: rgb(0, 13, 83);
+    background-color: var(--primhover);
 }
 .data{
     height:3vh;
@@ -90,11 +95,12 @@ background-color: var(--primcolor);
     width: 50vw;
     text-align: center;
     margin-left:25vw;
-    color: blanchedalmond;
+    color: var(--primfont);
     
 }
 .fitem{
     width:20vw;
+    text-align: left;
 }
 .txt{
     font-size:160%;
@@ -105,7 +111,7 @@ background-color: var(--primcolor);
     text-align: center;
     line-height:10vh;
     font-size:200%;
-    color: aliceblue;
+    color: var(--primfont);
 }
 #middle{
     display: flex;
@@ -118,6 +124,20 @@ background-color: var(--primcolor);
 ::-webkit-scrollbar {
     width: 0px;
 }
+@media screen and (max-width: 1000px) {
+    body {
+      background-color: blue;
+    }
+
+
+    }
+@media screen and (max-width: 600px) {
+    body {
+      background-color: olive;
+    }
+  }
+
+
 
 
 
