@@ -89,12 +89,23 @@ font-size:150%;
     margin-top:1vh;
     margin-left: 5vw;
     font-size: 115%;
+    display: flex;
+    flex-direction: row;
 }
 .entries{
     display: flex;
     flex-direction: column;
     overflow: scroll;
     scroll-behavior: smooth;
+}
+.datacat{
+    margin-left:3vw;
+    width: 70%;
+    text-align: left;
+}
+.dataamt{
+    width: 30%;
+    text-align: left;
 }
 
 .ftxt{

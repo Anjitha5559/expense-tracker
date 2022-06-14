@@ -19,24 +19,24 @@
             <div class="show" id="expinpfrm">
                 <h2 id="expsubhead" class="subhead">Expense</h2>
             <div class="form">
-                <input type="text" class="inp" id="exptop" placeholder="Food">
-                <input type="number" class="inp" id="expamt" placeholder="Rs. 100">
+                <input type="text" class="inp in" id="exptop" placeholder="Expense">
+                <input type="number" class="inp in" id="expamt" placeholder="Amount">
             </div>
             <div id="expbtn" class="btnrow">
-                <button class="btn" id="expclose">x</button>
-                <button class="btn" id="expadd">+</button>
+                <button class="btn" onclick="clr('in')">x</button>
+                <button class="btn" onclick="showdata('exptop','expamt','expentries')">+</button>
             </div>
         </div>
 
             <div class="show" id="incinpfrm">
                 <h2 id="incsubhead" class="subhead">Income</h2>
             <div class="form">
-                <input type="text" class="inp"id="inctop" placeholder="Stock Market">
-                <input type="number" class="inp" id="incamt" placeholder="Rs. 500">
+                <input type="text" class="inp out" id="inctop" placeholder="Income">
+                <input type="number" class="inp out" id="incamt" placeholder="Amount">
             </div>
             <div id="incbtn" class="btnrow">
-                <button class="btn" id="incclose">x</button>
-                <button class="btn" id="incadd">+</button>
+                <button class="btn" onclick="clr('out')" >x</button>
+                <button class="btn" onclick="showdata('inctop','incamt','incentries')" >+</button>
             </div>
         </div>
         </div>
@@ -46,28 +46,8 @@
             <h2 id="expshowsubhead" class="subhead">Expense Show</h2>
             <div class="entries" id="expentries">
             <div class="data">
-                food : 100
-            </div>
-            <div class="data">
-                food : 100
-            </div>
-            <div class="data">
-                food : 100
-            </div>
-            <div class="data">
-                food : 100
-            </div>
-            <div class="data">
-                food : 100
-            </div>
-            <div class="data">
-                food : 100
-            </div>
-            <div class="data">
-                food : 100
-            </div>
-            <div class="data">
-                food : 100
+                <div class="datacat">food</div>
+                <div class="dataamt">100</div>
             </div>
            
         </div>
@@ -76,28 +56,8 @@
             <h2 id="incshowsubhead" class="subhead">Income Show</h2>
             <div class="entries" id="incentries">
                 <div class="data">
-                    food : 100
-                </div>
-                <div class="data">
-                    food : 100
-                </div>
-                <div class="data">
-                    food : 100
-                </div>
-                <div class="data">
-                    food : 100
-                </div>
-                <div class="data">
-                    food : 100
-                </div>
-                <div class="data">
-                    food : 100
-                </div>
-                <div class="data">
-                    food : 100
-                </div>
-                <div class="data">
-                    food : 100
+                   <div class="datacat">food</div>
+                   <div class="dataamt">100</div>
                 </div>
                
             </div>
