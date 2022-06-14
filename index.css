@@ -52,11 +52,8 @@ body{
      width: 50%;
      left: auto;
      right: auto;
-        margin: auto;
-
-
-
- }
+     margin: auto;
+    }
 .input{
     font-size:120%;
     background-color: aquamarine;
